@@ -1,0 +1,37 @@
+/* Style for the table container */
+.table-container {
+  max-height: 40vh;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Basic table styling */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensures even column widths */
+}
+
+/* Style for table headers */
+.table-container th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0; /* Keep the headers fixed during scroll */
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Style for table cells */
+.table-container td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word; /* Wraps content in cells */
+}
+
+/* Optional: Add zebra striping for rows */
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
