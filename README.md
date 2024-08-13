@@ -25,6 +25,8 @@
 **[Search Your Image app]**
 Search Your Image app helps you looking for other images that looks like the given image. This app uses Caltech tensorflow_dataset for training and testing, for that reason test images have better results than other images. The front-end project presents test images for testing the model and its results. The model have been trainded using a custom neural network formed by 4 convolutional block which you can check from "imageClasification_custom_256.ipynb". The model also uses Knn model to identify images similar to the requested image.
 
+Please take a look at the ipynb used for developing this project model:[ RIS_Images_IPYNB](https://drive.google.com/file/d/1mTqF3RK9Ut9aEVwbKMF5EL_i2QAoz7eI/view?usp=sharing)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
